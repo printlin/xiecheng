@@ -1,0 +1,96 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	font-family : 微软雅黑,宋体;
+	}
+.clear{
+	overflow:hidden;
+	font-size:0px;
+	line-height:0px;
+	height:0px;
+	clear:both;
+	}
+ul,ol,li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0px;
+	}
+	
+
+
+.payInfo{
+	width:1200px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+
+.row{
+	width:500px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+.text2{
+	display:inline-block;
+	width:100px;
+	height:52px;
+	padding:6px;
+	float:left;
+	color:#3F3F3F;
+	font-size:18px;
+	line-height:28px;
+	margin-right:10px;
+}
+.inp1{
+	border:2px solid #ececec;
+	width:270px;
+	font-size:18px;
+	padding:6px;
+}
+
+
+.payAA{
+	width:500px;
+	height:180px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inp{
+	border:2px solid #ececec;
+	width:116px;
+	font-size:18px;
+	padding:13px;
+}
+.text1{
+	display:inline-block;
+	width:100px;
+	height:52px;
+	padding:14px 6px;
+	float:left;
+	color:#3F3F3F;
+	font-size:18px;
+	line-height:28px;
+	margin-right:10px;
+}
+.pay{
+	display:inline-block;
+	text-align:center;
+	width:100px;
+	margin-right:10px;
+	padding:14px;
+	font-size:18px;
+	cursor:pointer;
+	color:#fff;
+	background:#FB3E00;
+}
+.pay:hover{
+	background-color: #FF6E00;
+}

@@ -1,0 +1,182 @@
+﻿/* CSS Document */
+*{ margin:0px; padding:0px;}
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */  
+html{ color:#000; background:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}  
+  
+/* 去掉各Table cell 的边距并让其边重合 */  
+table{ border-collapse:collapse;border-spacing:0;}  
+  
+/* IE bug fixed: th 不继承 text-align*/  
+th{ text-align:inherit;}  
+ 
+/* 去除默认边框 */  
+fieldset,img{ border:none;}  
+  
+/* ie6 7 8(q) bug 显示为行内表现 */  
+iframe{ display:block;}  
+  
+/* 去掉列表前的标识, li 会继承 */  
+ol,ul,li{ list-style:none;} 
+
+/* 一致的 del 样式 */  
+del{ text-decoration:line-through; }  
+  
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */  
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:500;}  
+q:before,q:after {content:'';}  
+  
+/* 统一上标和下标 */  
+sub,sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}  
+sup {top: -0.5em;}  
+sub {bottom: -0.25em;}  
+  
+/* 默认不显示下划线，保持页面简洁 */  
+ins,a{ text-decoration:none;}  
+  
+/* 清理浮动 */  
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix{*+height:1%;} 
+
+.cl {clear: left;}
+.cr {clear: right;}
+.cb {clear: both;}
+.clears{ clear:both; line-height:0px; overflow:hidden; font-size:0px; height:0px;}
+
+/* 设置内联, 减少浮动带来的bug */    
+.fl{ float:left; display:inline;}  
+.fr{ float:right; display:inline;}  
+
+/* 隐藏显示一个元素，建议在js调用该规则 */
+.hide {display:none;}
+.show{ display:block;}
+
+/* 定位 */
+.abs {position: absolute;}
+.rel {position: relative;}
+.fix {position: fixed;}
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */  
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}  
+/* HTML5 媒体文件跟 img 保持一致 */  
+audio,canvas,video{ display: inline-block;*display: inline;*zoom: 1;}  
+/* 去掉 firefox 下此元素的边框 */  
+abbr,acronym{ border:0;font-variant:normal;}  
+address,caption,cite,code,dfn,em,th,var{ font-style:normal; font-weight:500;}  
+  
+/* margin top/right/bottom/left */
+.mt1 {margin-top: 1px}
+.mt2 {margin-top: 2px}
+.mt5 {margin-top: 5px}
+.mt10 {margin-top: 10px}
+.mt20 {margin-top: 20px}
+.mr1 {margin-right: 1px}
+.mr2 {margin-right: 2px}
+.mr5 {margin-right: 5px}
+.mr10{margin-right: 10px}
+.mr20 {margin-right: 20px}
+.mb1 {margin-bottom: 1px}
+.mb2 {margin-bottom: 2px}
+.mb5 {margin-bottom: 5px}
+.mb10 {margin-bottom: 10px}
+.mb20 {margin-bottom: 20px}
+.ml1 {margin-left: 1px}
+.ml2 {margin-left: 2px}
+.ml5 {margin-left: 5px}
+.ml10 {margin-left: 10px}
+.ml20 {margin-left: 20px}
+
+ /* 字体大小 */
+.f10 {font-size: 10px}
+.f12 {font-size: 12px}
+.f14 {font-size: 14px}
+.f16 {font-size: 16px}
+.f18 {font-size: 18px}
+.f20 {font-size: 20px}
+.f24 {font-size: 24px}
+
+/* 字体粗细 */
+.fwb {font-weight: bolder}
+.fwn {font-weight: normal}
+
+/* 内容 */
+.nowrap {white-space: nowrap;overflow: hidden}
+.idt2x {text-indent: 2em}
+
+/* display */
+.d-i{ display:inline;}
+.d-b{ display:block;}
+.d-ib{ display:inline-block;}
+
+/*字体颜色*/
+.c-333{ color:#333;}
+.c-gray{ color:#848484;}
+.c-orange{ color:#f63;}
+.c-red{ color:#f00;}
+.c-fade{ color:#b2b2b2;}
+.c_999{ color:#999;}
+.c_666{ color:#666;}
+
+/*按钮 图标样式  待补充*/
+
+/*自己补充的*/
+li,input,img,textarea,select{ vertical-align:middle;}
+input,textarea,select{font-family:Verdana,Arial,"Microsoft Yahei","宋体";}
+html{ background:#e5f3ff;}
+/*body{ font-family:Verdana,Arial,"Microsoft Yahei","宋体"; text-align:center; background:#fff; font-size:12px; line-height:24px;}*/
+.w1000{ width:1000px; margin-left:auto; margin-right:auto; text-align:left;}
+
+.head_bg{ height:150px; background:url(../images/head_bg.gif) repeat-x;}
+.head_bg .w1000{ height:150px; background:url(../images/head_bg.gif) repeat-x;}
+.w1000 .head_left a{ display:inline-block; margin-top:30px;}
+.w1000 .head_left a img{ width:210px; height:100px; overflow:hidden;}
+
+.w1000 .head_right .head_share{ text-align:right;}
+.share{ display:inline-block; height:16px; line-height:16px; background:url(../images/share.gif) no-repeat; padding-left:18px; margin-left:10px; }
+.share:hover{ color:#ff6666}
+.tu2{ background:url(../images/share.gif) 0px -16px no-repeat;}
+.head_nav li{ float:left; display:inline; margin-left:30px;}
+.head_nav li a{ text-align:center; display:inline-block;}
+.head_nav li a p{ font-size:16px; font-weight:bolder; font-family:"微软雅黑" ,"黑体"; color:#FFC20A;}
+.head_nav li a span{ line-height:18px; color:#d9d9d9;}
+.head_nav li a:hover p{ color:#ff6666}
+.head_nav li a:hover span{ color:#999}
+
+.biaoti{ height:50px; border-bottom:4px #d6ebde dotted; margin-bottom:30px;}
+.font_bt{ height:42px; font-family:"微软雅黑","黑体"; font-size:18px; color:#316193}
+.font_bt p{ font-size:14px; font-family:"Arial"; line-height:20px; color:#b2cae0}
+.more{ font-size:10px; line-height:20px; margin-top:20px; color:#8da7c3; }
+.more:hover{ color:#ff6666;}
+
+.foot_bg{ margin-top:60px; background:#2e3133}
+.ft_bg{ background:#2e3133; padding-bottom:60px;}
+.link{ width:1000px; padding-top:60px; padding-bottom:45px;}
+.link li{ float:left; display:inline; margin-right:20px;}
+.link li a{ font-size:12px; font-weight:normal; color:#8e8e8e;}
+.link li a:hover{ color:#fff}
+
+.foot_logo{ width:200px; height:65px; background:url(../images/foot_logo.gif) no-repeat; overflow:hidden;}
+.foot_center{ margin-left:70px; width:330px;}
+.foot_right{ margin-left:70px; width:330px;}
+.w53{ display:inline-block; width:60px; text-align:right;}
+.x_nr{ display:inline-block;}
+
+html{_text-overflow:ellipsis;}
+#floatQQ{ width:110px;  left:50%; margin-left:520px;  z-index:999;
+   position:fixed; 
+  _position:absolute; 
+  top:40px; 
+  _top:auto;
+  _top:expression(documentElement.scrollTop+40);
+}
+#floatQQ .floatQQ_1{ background:url(../images/qq_float/qq_float.png) no-repeat; width:110px; height:28px; line-height:28px; overflow:hidden; font-size:14px; text-align:right;}
+#floatQQ .floatQQ_1 a{ display:inline-block; height:28px; overflow:hidden; padding:0px 3px; color:#fff; padding-right:10px;}
+#floatQQ .floatQQ_1 a:hover{ color:#00f}
+#floatQQ .floatQQ_2{ width:110px; background:url(../images/qq_float/qq_float2.gif)  repeat-y;}
+#floatQQ .floatQQ_3{ background:url(../images/qq_float/qq_float3.png) no-repeat; height:11px; font-size:0px; line-height:0px; overflow:hidden;}
+#floatQQ .floatQQ_2 p{ padding-top:10px; padding-bottom:10px;}

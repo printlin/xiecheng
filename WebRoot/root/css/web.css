@@ -1,0 +1,169 @@
+html{
+	background-color: #f3f3f3;
+	}
+.kuangjia{
+			width: 900px;
+			height: 500px;
+			margin: auto auto;
+			margin-top: 100px;
+		}
+.kuangjia .title{
+			width: 900px;
+			height: 80px;
+	
+			
+		}
+.kuangjia .title .twenzi{
+			height:20px;
+			font-size:22px;
+			text-align: center;
+			color: #1d80cf;
+			padding-top: 10px;
+		}
+.kuangjia .title .twenzi1{
+			height:20px;
+			font-size:18px;
+			text-align: center;
+			color: #999;
+			font-weight: 400px;
+		}
+.kuangjia .content{
+			width:900px;
+			height:600px;
+			padding-top: 20px;
+			position: relative;
+		}
+
+.kuangjia .content .register{
+			width:72px;
+			height:33px;
+			color: silver;
+			text-decoration: none;
+			font-size: 18px;
+			display: block;
+			text-align: center;
+			line-height:35px;
+			float: left;
+			margin-left: 370px;
+
+		}
+.kuangjia .content .login{
+			width:72px;
+			height:33px;
+			line-height:35px;
+			color: silver;
+			text-decoration: none;
+			font-size: 18px;
+			display: block;
+			text-align: center;
+			float: left;
+			margin-left:40px;
+		}
+.kuangjia .content .login:hover{
+			color: orange;
+		}
+.kuangjia .content .register:hover{
+			color: orange;
+		}
+.logincontent{
+	width: 300px;
+	height: 240px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: absolute;
+	left:296px;
+	bottom:300px;
+}
+
+.logincontent .ltd{
+	height:40px;
+	width: 40px;
+	text-align: center;
+	background-color: silver;
+	line-height: 40px;
+}
+ table{
+			border-collapse: separate;
+			border-spacing: 0px 10px;}
+.logincontent .luser{
+		width: 258px;
+		height: 40px;
+		font-size: 12px;
+		line-height: 40px;}
+.pwenzi{
+		float: right;
+		font-size: 12px;
+		margin-right: 20px;
+		margin-top: 10px;
+		
+		}
+.pwenzi a{
+		color:#6c6c6c;
+		}
+p a:hover{
+		color:red;
+		}
+
+.logincontent .lpwd{
+		width: 258px;
+		height: 40px;
+		font-size: 12px;
+		line-height: 40px;
+		float: left;
+		}
+ .logincontent .submit{
+	width: 300px;
+    height: 42px;
+    border: 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #1d80cf;
+    border-radius: 3px;
+    cursor: pointer;
+    zoom: 1;
+    margin-top: 10px;
+}	
+.kuangjia .content .rcontent{
+	width: 496px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	left:210px;
+	bottom:140px;
+	display: none;
+}
+input[type="text"],input[type="password"],select{
+		width: 200px;
+		height: 28px;
+		font-size: 12px;
+		line-height: 28px;
+}
+.kuangjia .content .rcontent table{
+			border-collapse: separate;
+			border-spacing: 40px 6px;}
+textarea {border-color: silver;}
+.lasttd{ text-align: center;padding: 10px 0}
+.lsubmit ,.lreset{
+	width: 60px;
+    height: 30px;
+    border: 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #1d80cf;
+    border-radius: 3px;
+    cursor: pointer;
+    zoom: 1;
+    margin-top: 10px;
+}
